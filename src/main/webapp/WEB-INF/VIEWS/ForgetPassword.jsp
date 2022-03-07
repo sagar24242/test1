@@ -4,14 +4,17 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Forget	Password</title>
 </head>
 <body>
-<h2>Forgot Password</h2>
-<form action="forgotpwd" method="post">
-   Email: <input type="text" name="email"><br> <br>
-	
-		<input type="submit" value="Reset">
+<h2>ForgetPassword</h2>
+
+<form action="forgetpassword" method="post">
+	Email : <input type="text" name="email"><br><br>
+	<input type="submit" value="Get Me Back"/> 
+
 </form>
+${error}
+
 </body>
 </html>
